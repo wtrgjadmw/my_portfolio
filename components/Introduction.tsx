@@ -1,4 +1,4 @@
-export default function Introduction() {
+export const Introduction = () => {
   return(
     <div className="rounded-lg shadow-lg w-2/3 flex flex-col flex-wrap justify-center items-center border">
       <img src="/grayRabbit.jpg" height="180" width="180" className="rounded-circle shadow-xl border-4 border-white my-8"/>
