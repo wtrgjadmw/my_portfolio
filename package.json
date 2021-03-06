@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --ext .js --fix"
   },
   "dependencies": {
     "next": "10.0.7",
@@ -29,7 +30,7 @@
     "tailwindcss": "^2.0.3"
   },
   "lint-staged": {
-    "*.js":[
+    "*.js": [
       "eslint --fix",
       "organize-imports-cli"
     ]
