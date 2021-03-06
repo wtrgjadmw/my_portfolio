@@ -31,12 +31,17 @@
   "lint-staged": {
     "*.js":[
       "eslint --fix",
-      "git add"
+      "organize-imports-cli"
     ]
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged && pretty-quick --staged",
+      "pre-push": "tsc && npm run lint && npm run test"
     }
   }
 }
