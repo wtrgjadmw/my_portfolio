@@ -4,12 +4,12 @@ import TwitterIcon from "./svgs/TwitterIcon";
 
 export default function Header() {
   return(
-    <header className="h-12 shadow py-3">
+    <header className="h-12 shadow py-3 sticky">
       <div className="container mx-auto px-6">
         <div className="flex justify-between">
           <div className="flex">
             <TerminalIcon/>
-            <div className="mx-3 font-architects text-lg">MOMOKO FUKUDA</div>
+            <div className="mx-3 font-architects text-lg">Momoko Fukuda</div>
           </div>
           <div className="flex">
             <a href="https://twitter.com/wtrgjadmw">
