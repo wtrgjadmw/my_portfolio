@@ -2,7 +2,8 @@ export default function Introduction() {
   return(
     <div className="rounded-lg shadow-lg w-2/3 flex flex-col flex-wrap justify-center items-center border">
       <img src="/grayRabbit.jpg" height="180" width="180" className="rounded-circle shadow-xl border-4 border-white my-8"/>
-      <span className="font-bold text-2xl pb-4">Fukuda Momoko
+      <span className="font-bold text-2xl pb-4">
+        Fukuda Momoko
       </span>
       <ul className="border-t border-gray-200 flex flex-wrap py-3 px-20">
         <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">Javascript</li>
