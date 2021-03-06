@@ -1,6 +1,6 @@
-import GithubIcon from "./svgs/GithubIcon";
+import {GithubIcon} from "./svgs/GithubIcon";
 import TerminalIcon from "./svgs/TerminalIcon";
-import TwitterIcon from "./svgs/TwitterIcon";
+import {TwitterIcon} from "./svgs/TwitterIcon";
 
 export default function Header() {
   return(
