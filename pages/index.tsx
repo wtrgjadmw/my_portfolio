@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import {Header} from '../components/Header'
-import {Introduction} from '../components/Introduction'
+import Header from '../components/Header'
+import Introduction from '../components/Introduction'
 
 export default function Home() {
   return (

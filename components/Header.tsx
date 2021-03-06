@@ -1,8 +1,8 @@
-import {GithubIcon} from "./svgs/GithubIcon";
-import {TerminalIcon} from "./svgs/TerminalIcon";
-import {TwitterIcon} from "./svgs/TwitterIcon";
+import GithubIcon from "./svgs/GithubIcon";
+import TerminalIcon from "./svgs/TerminalIcon";
+import TwitterIcon from "./svgs/TwitterIcon";
 
-export const Header = () => {
+export default function Header() {
   return(
     <header className="h-12 shadow py-3 sticky">
       <div className="container mx-auto px-6">
