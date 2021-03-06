@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         architects: ["Architects Daughter", "sans-serif"],
+      },
+      borderRadius: {
+        circle: "50%"
       }
     },
   },
