@@ -19,6 +19,15 @@ module.exports = {
     }
   },
   "settings": {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      },
+      typescript: {
+        config: 'tsconfig.json',
+        alwaysTryTypes: true,
+      },
+    },
     "react": {
       "version": "detect"
     }
@@ -35,9 +44,29 @@ module.exports = {
     "prettier/@typescript-eslint"
   ],
   "rules": {
-    "react/prop-types": "off",
-    "prettier/prettier": "error",
-    "react/react-in-jsx-scope": "off"
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        types: {
+          '{}': false,
+        },
+      },
+    ],
+    'react/prop-types': ['off'],
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
+    'import/order': ['error'],
+    'prettier/prettier': [
+      'error',
+      {
+        trailingComma: 'all',
+        endOfLine: 'lf',
+        semi: false,
+        singleQuote: true,
+        printWidth: 80,
+        tabWidth: 2,
+      },
+    ],
   },
   "overrides": [
     {
