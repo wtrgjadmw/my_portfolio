@@ -9,7 +9,7 @@ export default function Introduction() {
         <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">Typescript</li>
         <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">C</li>
         <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">C++</li>
-          <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">Python</li>
+        <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">Python</li>
         <li className="mr-3 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">HTML5</li>
         <li className="my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">CSS</li>
       </ul>
