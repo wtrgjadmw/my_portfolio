@@ -13,10 +13,10 @@ export default function Header() {
           </div>
           <div className="flex">
             <a href="https://twitter.com/wtrgjadmw">
-              <TwitterIcon className="mx-3 cursor-pointer"/>
+              <TwitterIcon className="mx-3 cursor-pointer hover:opacity-50"/>
             </a>
             <a href="https://github.com/wtrgjadmw">
-              <GithubIcon className="mx-3 cursor-pointer"/>
+              <GithubIcon className="mx-3 cursor-pointer hover:opacity-50"/>
             </a>
           </div>
         </div>
