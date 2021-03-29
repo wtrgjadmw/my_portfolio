@@ -14,7 +14,6 @@ export default function Introduction() {
         <li className="mr-2 my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">HTML5</li>
         <li className="my-1 tracking-wider border px-2 text-indigo-600 border-indigo-600">CSS</li>
       </ul>
-      
     </div>
   )
 }
