@@ -25,7 +25,7 @@ export const Education = () => {
             <div className="border-indigo-600 border-2 bg-white w-7 h-7 rounded-full pr-6 z-10"></div>
             <div className="border-indigo-200 border-2 rounded-lg shadow-md md:px-6 px-4 py-4 md:ml-6 ml-4">
               <h2 className="md:text-lg font-semibold pb-2">フロントエンドエンジニア</h2>
-              <div className="text-gray-600">palanでフロントエンドエンジニアとしてインターンを始める。<br/>主にJavaScriptを使用。</div>
+              <div className="text-gray-600">palanでフロントエンドエンジニアとしてインターンを始める。<br/>主にTypeScriptを使用。</div>
             </div>
           </li>
           <li className="flex items-center pb-8">
